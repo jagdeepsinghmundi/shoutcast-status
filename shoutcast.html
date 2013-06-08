@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Shoutcast server status using JavaScript</title>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	
+	<script>
+		var url = 'http://gill.sukhpal.net:8000/7.html';
+		$.ajax({
+		    type:'GET',
+		    url:url,
+
+		    contentType: "jsonp"
+		}).done(function(data) { 
+		    $('.result').html(data);
+		});
+	</script>
+</head>
+<body>
+	<div class="result"></div>
+</body>
+</html>
