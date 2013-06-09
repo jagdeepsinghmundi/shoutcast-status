@@ -8,4 +8,4 @@ Feel free to contribute and use the code anywhere.
 
 [Raphael Campos](https://github.com/vitamini/) for PHP code.
 
-[Kevin Sawicki](https://github.com/kevinsawicki/http-request) for amazing Http-requrest library.
+[Kevin Sawicki](https://github.com/kevinsawicki/http-request) for amazing http-request library.
