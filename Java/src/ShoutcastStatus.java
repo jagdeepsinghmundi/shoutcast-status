@@ -14,7 +14,7 @@ public class ShoutcastStatus {
 				// audio instead of returning the 7.html page.
 				.body(); // Gets response body
 		body = body.replaceAll("<[^<]+?>", ""); // Removes the html tags
-		String[] info = body.split("\\,"); // Splits data using delimiter comma
+		String[] info = body.split("\\,", 7); // Splits data using delimiter comma
 		
 		System.out.println("Current Listener: " + info[0]);
 		System.out.println("Status: " + info[1]);
